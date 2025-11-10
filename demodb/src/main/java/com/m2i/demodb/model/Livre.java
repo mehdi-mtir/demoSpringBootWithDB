@@ -24,5 +24,5 @@ public class Livre {
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "auteur_id", referencedColumnName = "id", nullable = false)
-    Auteur idAuteur;
+    Auteur auteur;
 }
